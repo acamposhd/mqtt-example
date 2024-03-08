@@ -1,0 +1,9 @@
+version: "3"
+services:
+  Mosquitto:
+    container_name: Mosquitto
+    image: "eclipse-mosquitto:2.0.14"
+    ports:
+      - "1883:1883"
+    command: mosquitto -c /mosquitto-no-auth.conf
+    tty: true
