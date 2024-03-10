@@ -24,8 +24,8 @@ def on_connect(client, userdata, flags, rc):
         print("Falla en la conexión al broker")
 
 # Esto debe ser cambiado por la dirección del broker    
-broker_address = "http://0.tcp.us-cal-1.ngrok.io" # dirección del broker
-port=17948 #Puerto de conexión
+broker_address = "8.tcp.us-cal-1.ngrok.io" # dirección del broker
+port=19359 #Puerto de conexión
 
 
 

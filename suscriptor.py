@@ -13,8 +13,8 @@ def on_message(client, userdata, message):
     print(f"Mensaje recibido - {message.topic}:{message.payload.decode('utf-8')}")
 
 # Esto debe ser cambiado por la dirección del broker
-broker_address = "http://0.tcp.us-cal-1.ngrok.io" # dirección del broker
-port=17948 #Puerto de conexión
+broker_address = "8.tcp.us-cal-1.ngrok.io" # dirección del broker
+port=19359 #Puerto de conexión
 
 # Para correrlo localmente con 
 # broker_address = "broker.hivemq.com" # dirección del broker
